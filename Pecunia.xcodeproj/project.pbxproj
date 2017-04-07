@@ -833,6 +833,8 @@
 		27FD0DA6184120AE0047911C /* StatementsOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FD0DA5184120AE0047911C /* StatementsOverviewController.m */; };
 		27FD0DA7184120AE0047911C /* StatementsOverviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FD0DA5184120AE0047911C /* StatementsOverviewController.m */; };
 		27FD58CB1437569B0074B378 /* StatementsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FD58CA1437569B0074B378 /* StatementsListView.m */; };
+		3E25145F1E983036004E6340 /* aqbanking.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E25145E1E983036004E6340 /* aqbanking.js */; };
+		3E2514601E983037004E6340 /* aqbanking.js in Resources */ = {isa = PBXBuildFile; fileRef = 3E25145E1E983036004E6340 /* aqbanking.js */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A652533515E39A92000C2989 /* TanWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A652533415E39A92000C2989 /* TanWindow.m */; };
@@ -1590,6 +1592,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Pecunia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pecunia_Prefix.pch; sourceTree = "<group>"; };
+		3E25145E1E983036004E6340 /* aqbanking.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = aqbanking.js; path = Plugins/aqbanking.js; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Pecunia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pecunia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B9B0C01BC1DED400400B44 /* bos.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bos.js; path = Plugins/bos.js; sourceTree = "<group>"; };
@@ -2167,6 +2170,7 @@
 		27A85F861B1A07D20017D863 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				3E25145E1E983036004E6340 /* aqbanking.js */,
 				27A85F871B1A07F70017D863 /* dkb.js */,
 				99B9B0C01BC1DED400400B44 /* bos.js */,
 			);
@@ -3492,6 +3496,7 @@
 				27E8464B19E181280026464E /* NotificationWindow.xib in Resources */,
 				27E8464C19E181280026464E /* Orders.xib in Resources */,
 				27E8464D19E181280026464E /* OrdersListViewCell.xib in Resources */,
+				3E2514601E983037004E6340 /* aqbanking.js in Resources */,
 				27E8464E19E181280026464E /* PasswordDialog.xib in Resources */,
 				27E8464F19E181280026464E /* Preferences.xib in Resources */,
 				27E8465019E181280026464E /* PurposeSplitWindow.xib in Resources */,
@@ -3737,6 +3742,7 @@
 				27AA5669186C389900B113E7 /* distribution.png in Resources */,
 				27DBAAEC175123ED00E75996 /* hatch-1@2x.png in Resources */,
 				27AA5667186C389900B113E7 /* distribution-active@2x.png in Resources */,
+				3E25145F1E983036004E6340 /* aqbanking.js in Resources */,
 				271AD6B318E85741005BE90D /* key.png in Resources */,
 				272F6E621955C9C500096734 /* sequence-type-end.png in Resources */,
 				272F6E7C1955E6A500096734 /* sequence-type-blue@2x.png in Resources */,
